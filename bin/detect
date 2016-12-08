@@ -1,5 +1,12 @@
 #!/usr/bin/env bash
 # bin/detect <build-dir>
 
-echo "MongoDB"
+echo "-----> MongoDB Detect"
+printf "\n\t### START MongoDB Environment Vars & Script Parameters ###"
+printf "\n\tArg 1: ${1}"
+printf "\n\tArg 2: ${2}"
+printf "\n\tArg 3: ${3}\n"
+printenv
+printf "\n\t### END env vars & script params ###\n"
+
 exit 0
